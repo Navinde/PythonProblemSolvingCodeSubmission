@@ -1,7 +1,8 @@
 
 #Navinder Kour
 #problem set 2
-#Time Spend : 8 hours
+#Time Spend : 2 hours
+
 
 def evaluate_poly(poly, x):
     result=0
@@ -21,10 +22,10 @@ def compute_deriv(poly):
     return result
     
 poly = (-13.39, 0.0, 17.5, 3.0, 1.0)    
-print(compute_deriv(poly))    
+print(compute_deriv(poly))   
 
 
- 
+
 def compute_root(poly, x_0, epsilon):
     
     x_n = x_0
